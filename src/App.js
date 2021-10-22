@@ -4,8 +4,14 @@ import NavbarComp from './components/NavbarComp';
 import Banner from './components/Banner';
 import About from './components/About';
 import Portfolio from './components/Portfolio';
+import Experience from './components/Experience';
 
 function App() {
+
+  /*window.onbeforeunload = function () {
+    window.scrollTo(0, 0);
+  }*/
+
   return (
     <div className="App">
       <Router>
@@ -14,7 +20,10 @@ function App() {
           <Banner/>
           <About/>
         </div>
-        <Portfolio/>
+        <div className="SecondPart">
+          <Portfolio/>
+          <Experience/>
+        </div>
         
       </Router>
     </div>

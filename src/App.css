@@ -6,4 +6,10 @@
 
 .FirstPart{
   background-color: rgba(232, 225, 215, 0.4);
+  margin-bottom: 0;
 }
+
+.SecondPart{
+  margin-top: 0;
+}
+

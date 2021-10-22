@@ -10,7 +10,7 @@ library.add(faJava, faJs, faHtml5, faCss3Alt, faReact, faNode, faFigma, faPython
 
 function About() {
     return (
-        <div className="About">
+        <div className="About" id="About">
             <div className="aboutTop">
                 <div className="aboutTop-tit">
                     <h3>About</h3>

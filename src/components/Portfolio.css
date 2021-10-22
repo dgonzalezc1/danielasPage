@@ -2,12 +2,55 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 6rem;
 }
 
 
 .Portfolio h3{
     font-family: 'Poppins';
-    font-size: 5.6rem;
+    font-size: 5.2rem;
     color: #C39677;
     font-weight: 400;
 }
+
+.portfolioProject{
+    display: flex;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    align-items: center;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+}
+
+.projectText{
+    margin-right: 4rem;
+}
+.projectText-princ{
+    font-family: "Poppins";
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #212529;
+    margin-bottom: 0;
+}
+.projectText-sub{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 0.9rem;
+    color: #af866b;
+    margin-bottom: 2rem;
+}
+.projectText-body{
+    font-family: "Poppins";
+    color: #212529;
+    font-size: 0.8rem;
+}
+
+
+.projectImage{
+    margin-left: 4rem;
+}
+
+.projectImage-img{
+    /*height: 65vh;*/
+    width: 35vw;
+}
+

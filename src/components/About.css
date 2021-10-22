@@ -1,6 +1,6 @@
 .About{
     margin-top: 7.5rem;
-    margin-bottom: 7rem;
+    padding-bottom: 7.5rem;
     margin-left: 19vw;
     margin-right: 19vw;
 }
@@ -39,7 +39,6 @@
     display: flex;
     justify-content: space-between;
     margin-top: 7rem;
-    padding-bottom: 7.5rem;
 }
 
 .aboutIcon{

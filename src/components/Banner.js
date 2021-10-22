@@ -4,7 +4,7 @@ import photo from "../Assets/FotoDanielaNoFondo.png";
 
 function Banner() {
     return (
-        <div className="Banner">
+        <div className="Banner" id="Banner">
             <div className="bannerContent">
                 <div className="bannerText">
                     <div className="bannerText-princ">

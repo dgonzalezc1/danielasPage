@@ -6,6 +6,7 @@
 
 .navCollapse{
     justify-content: center !important;
+    align-items: center !important;
 }
 
 .navPrincipal a{
@@ -22,6 +23,19 @@
 .nav-link:hover{
     text-decoration: underline;
 }
+
+.navPrincipal a{
+    color: #727272 !important;
+    padding: 0.5rem;
+}
+.navPrincipal a:hover{
+    text-decoration: underline !important;
+}
+.navPrincipal a.active{
+    color: #212529 !important;
+    text-decoration: none;
+}
+
 
 .navbar-toggler {
   border: none !important;
