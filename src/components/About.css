@@ -1,0 +1,52 @@
+.About{
+    margin-top: 7.5rem;
+    margin-bottom: 7rem;
+    margin-left: 19vw;
+    margin-right: 19vw;
+}
+
+.aboutTop{
+    display: flex;
+}
+
+.aboutTop-tit{
+    margin-left: 1rem;
+    margin-right: 3rem;
+}
+
+.aboutTop-tit h3{
+    font-family: 'Poppins';
+    font-size: 5.6rem;
+    color: rgba(131, 145, 146, 0.8);
+    font-weight: 400;
+}
+
+.aboutTop-txt{
+    margin-right: 1rem;
+    margin-left: 3rem;
+    font-family: 'Poppins';
+    font-size: 0.95rem;
+    color: #212529;
+}
+
+.aboutTop-txt span{
+    font-size: 1.2rem;
+    font-weight: 500;
+
+}
+
+.aboutBotom{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 7rem;
+    padding-bottom: 7.5rem;
+}
+
+.aboutIcon{
+    color: #839192;
+    font-size: 3rem;
+}
+.aboutTool{
+    font-family: "Poppins";
+    font-weight: 500;
+}

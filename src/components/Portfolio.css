@@ -1,0 +1,13 @@
+.Portfolio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.Portfolio h3{
+    font-family: 'Poppins';
+    font-size: 5.6rem;
+    color: #C39677;
+    font-weight: 400;
+}
