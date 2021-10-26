@@ -11,3 +11,42 @@
     color: #AE393F;
     font-weight: 400;
 }
+
+.experienceContent{
+    margin-top: 5rem;
+    margin-left: 12vw;
+    margin-right: 12vw;
+}
+
+.experienceContent-block{
+    display: flex;
+    margin-bottom: 4rem;
+}
+
+
+.experienceDate p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #727272;
+    margin-top: 0.7rem;
+    margin-left: 2rem;
+    font-size: 1.1rem;
+}
+
+.experienceDetail-prin{
+    font-family: "Poppins";
+    font-size: 1.7rem;
+    color: #212529;
+    margin-bottom: 0;
+}
+.experienceDetail-sec{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #AE393F;
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+.experienceDetail-body{
+    font-family: "Poppins";
+    font-weight: 300;
+    color: #212529;
+    font-size: 0.9rem;
+}

@@ -14,10 +14,10 @@ function NavbarComp() {
                             <Link to="Banner" className="active">HOME</Link>
                             <Link to="About">ABOUT</Link>
                             <Link to="Portfolio">PORTFOLIO</Link>
-                            <Nav.Link href="Experience">EXPERIENCE</Nav.Link>
-                            <Nav.Link href="Education">EDUCATION</Nav.Link>
-                            <Nav.Link href="Interests">INTERESTS</Nav.Link>
-                            <Nav.Link href="Contact">CONTACT</Nav.Link>
+                            <Link to="Experience">EXPERIENCE</Link>
+                            <Link to="Education">EDUCATION</Link>
+                            {/*<Nav.Link href="Interests">INTERESTS</Nav.Link>*/}
+                            <Link to="Footer">CONTACT</Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>

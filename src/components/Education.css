@@ -1,0 +1,56 @@
+.Education{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+.Education h3{
+    font-family: 'Poppins';
+    font-size: 5.2rem;
+    color: #839192;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+
+hr{
+    width: 75vw;
+    color: #727272;
+}
+
+.educationSection{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 3rem;
+}
+.second{
+    margin-top: 5rem;
+}
+.educationSection h4{
+    font-family: "Poppins";
+    color: #212529;
+    margin-bottom: 4rem;
+}
+
+.educationRow{
+    display: flex;
+}
+.educationRow-bloc{
+    display: flex;
+    flex-direction: column;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+.educationRow-bloc p{
+    margin-bottom: 0;
+    font-family: "Poppins";
+    font-family: 0.9rem;
+}
+.educationRow-bloc-tit{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+}

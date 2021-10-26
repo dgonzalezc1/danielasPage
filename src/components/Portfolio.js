@@ -11,7 +11,7 @@ function Portfolio() {
             <div className="portfolioProject">
                 <div className="projectText">
                     <p className="projectText-princ">ITTI - Entrepreneurship and Innovation Project</p>
-                    <p className="projectText-sub">Front Development, UX Case Study, UI Design, Product Management</p>
+                    <p className="projectText-sub">Front Development, Product, UX Case Study, UI Design, Branding</p>
                     <p className="projectText-body">I am a co-founder of ITTI, a startup in construction that aims to build bridges between distant worlds in Colombia so that different societies can grow and coexist harmoniously. The first step towards this mission is a platform that integrates local commerce, digital transformation, and the diversity of tastes where Colombian jewelers and artisans can connect with potential customers to sell their products.</p>
                     <p className="projectText-body">I have work as general manager and in product, UX/UI, and front development. We are currently at the MVP/Validation stage which was made with React, Express and MongoDB. With ITTI we won the popular category award in the Innovation Week of the Universides de los Andes, we were also 6th a the rector's challenge, InnoTIC100M, competing for 30,000 dollars. We are currently participating in the START Fellowship acceleration program.</p>
                 </div>

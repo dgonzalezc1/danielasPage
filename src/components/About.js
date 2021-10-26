@@ -22,9 +22,10 @@ function About() {
                         with participants from different backgrounds and carreer paths.</p>
                     <p><span>SKILLS</span></p>
                     <ul className="bullet">
-                        <li>Leadership and project management</li>
-                        <li>Fast learning</li>
-                        <li>Responsibility and organization</li>
+                        <li>Fast learning of new technologies and frameworks</li>
+                        <li>Team working and communication</li>
+                        <li>Agile methodologies</li>
+                        <li>Critical and strategical thinking</li>
                         <li>Creativity</li>
                         <li>Result and detail driven</li>
                         <li>Spanish, English and French</li>

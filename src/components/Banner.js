@@ -13,7 +13,7 @@ function Banner() {
                         <h2>González</h2>
                     </div>
                     <div className="bannerText-sec">
-                        <p>Mechanical Engineering and Computer Science student<br/> passionate about innovation, design, UX/UI and sustainability.</p>
+                        <p>Mechanical Engineering and Computer Science student <br/> from Colombia passionate about innovation, design, UX/UI <br/>and sustainability.</p>
                     </div>
                     
                 </div>

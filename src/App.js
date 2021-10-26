@@ -5,6 +5,8 @@ import Banner from './components/Banner';
 import About from './components/About';
 import Portfolio from './components/Portfolio';
 import Experience from './components/Experience';
+import Education from './components/Education';
+import Footer from './components/Footer';
 
 function App() {
 
@@ -23,8 +25,9 @@ function App() {
         <div className="SecondPart">
           <Portfolio/>
           <Experience/>
+          <Education/>
         </div>
-        
+        <Footer/>
       </Router>
     </div>
   );
