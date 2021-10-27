@@ -50,3 +50,45 @@
     color: #212529;
     font-size: 0.9rem;
 }
+
+
+@media(max-width:800px){
+    .Experience h3{
+        font-size: 3.5rem;
+    }
+    .experienceContent{
+        margin-top: 3rem;
+    }
+    .experienceDate p{
+        font-size: 0.8rem;
+    }
+    .experienceDetail-prin{
+        font-size: 1.2rem;
+    }
+    .experienceDetail-sec{
+        font-size: 0.9rem;
+    }
+    .experienceDetail-body{
+        font-size: 0.8rem;
+    }
+}
+
+@media(max-width:600px){
+    .experienceContent-block{
+        flex-direction: column;
+        margin-bottom: 2rem;
+    }
+    .experienceDate p{
+        margin-left: 0;
+    }
+
+}
+
+@media(max-width:420px){
+    .Experience{
+        margin-top: 3rem;
+    }
+    .Experience h3{
+        font-size: 2.5rem;
+    }
+}

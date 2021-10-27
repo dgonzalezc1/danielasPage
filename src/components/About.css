@@ -49,3 +49,49 @@
     font-family: "Poppins";
     font-weight: 500;
 }
+
+@media(max-width:1000px){
+    .aboutTop{
+        flex-direction: column;
+    }
+    .aboutTop-txt{
+        margin-left: 1rem;
+        margin-top: 1rem;
+    }
+}
+
+@media(max-width:800px){
+    .aboutTop-tit h3{
+        font-size: 3.5rem;
+    }
+    .aboutIcon{
+        font-size: 2rem;
+    }
+}
+
+@media(max-width:600px){
+    .aboutBotom{
+        flex-wrap: wrap;
+    }
+    .aboutIcon{
+        margin-bottom: 1rem;
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+    }
+    .About{
+        margin-top: 4rem;
+    }
+    .aboutTop-txt{
+        font-size: 0.8rem;
+    }
+    .aboutTop-txt span{
+        font-size: 1rem;
+        margin-top: 2rem;
+    }
+}
+
+@media(max-width:420px){
+    .aboutTop-tit h3{
+        font-size: 2.5rem;
+    }
+}

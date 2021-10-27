@@ -4,7 +4,12 @@
     background-color: rgba(232, 225, 215, 0.4);
     padding-top: 5rem;
     padding-bottom: 5rem;
-    padding-left: 10rem;
+    padding-left: 11vw;
+}
+
+.footerPrinc{
+    display: flex;
+    align-items: center;
 }
 
 .footerImage{
@@ -63,4 +68,51 @@
 .footerLinks{
     display: flex;
     flex-direction: column;
+}
+
+@media(max-width:1375px){
+    .footerNav{
+        margin-right: 1.5rem;
+    }
+    .footerContact{
+        margin-left: 1.5rem;
+    }
+}
+@media(max-width:1200px){
+    .Footer{
+        padding-left: 8vw;
+    }
+}
+@media(max-width:1133px){
+    .footerNav{
+        display: none;
+    }
+    .Footer{
+        justify-content: space-around;
+    }
+    .footerContact{
+        margin-right: 3rem;
+    }
+}
+
+@media(max-width:600px){
+    .footerTit{
+        display: none;
+    }
+    .footerContact{
+        margin-right: 2rem;
+    }
+}
+
+@media(max-width:600px){
+    .footerImage{
+        width: 3rem;
+    }
+    .footerContact a{
+        font-size: 0.8rem;
+    }
+    .footerIcons a{
+        font-size: 1.1rem;
+    }
+
 }

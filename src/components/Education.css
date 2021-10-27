@@ -54,3 +54,39 @@ hr{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 600;
 }
+
+@media(max-width:800px){
+    .Education h3{
+        font-size: 3.5rem;
+    }
+}
+@media(max-width:600px){
+    .educationRow{
+        flex-direction: column;
+    }
+    .educationRow-bloc{
+        margin-top: 1.5rem;
+    }
+    .educationSection h4{
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
+    }
+    .educationRow-bloc p{
+        font-size: 0.8rem;
+    }
+}
+
+@media(max-width:420px){
+    .Education{
+        margin-top: 2.5rem;
+    }
+    .Education h3{
+        font-size: 2.5rem;
+    }
+    .educationSection h4{
+        font-size: 1rem;
+    }
+    .educationRow-bloc p{
+        font-size: 0.7rem;
+    }
+}

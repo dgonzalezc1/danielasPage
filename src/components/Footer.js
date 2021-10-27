@@ -18,10 +18,12 @@ function Footer() {
                 <p>+57 314 4840591</p>
                 <p>d.gonzalezc1@uniandes.edu.co</p>  
             </div>*/}
-            <img className="footerImage" src={icon} alt="D Logo" />
-            <div className="footerTit">
-                <p className="footerTit-name">Daniela González</p>
-                <p className="footerTit-rights">© 2021 All Rights Reserved.</p>  
+            <div div className="footerPrinc">
+                <img className="footerImage" src={icon} alt="D Logo" />
+                <div className="footerTit">
+                    <p className="footerTit-name">Daniela González</p>
+                    <p className="footerTit-rights">© 2021 All Rights Reserved.</p>  
+                </div>
             </div>
             <div className="footerNav">
                 <Link to="About">ABOUT</Link>
