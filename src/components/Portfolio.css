@@ -103,4 +103,8 @@
     .Portfolio h3{
         font-size: 2.5rem;
     }
+    .portfolioProject{
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
 }

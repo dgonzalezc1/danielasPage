@@ -97,4 +97,7 @@
     .bannerImage{
         margin-left: 0;
     }
+    .bannerImage-img{
+        width: 35vw;
+    }
 }

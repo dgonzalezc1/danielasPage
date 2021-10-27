@@ -18,8 +18,8 @@
 
 .footerTit{
     font-family: "Poppins";
-    margin-left: 2.5rem;
-    padding-right: 3.5rem;
+    margin-left: 3vw;
+    padding-right: 4vw;
     color: #727272;
     border-right: 1px solid #727272;;
 }
@@ -33,8 +33,8 @@
 }
 
 .footerNav{
-    margin-left: 3rem;
-    margin-right: 3rem;
+    margin-left: 3.5vw;
+    margin-right: 3.5vw;
 }
 .footerNav a{
     margin-left: 0.5rem;
@@ -115,4 +115,19 @@
         font-size: 1.1rem;
     }
 
+}
+
+@media(min-width:1450px){
+    .Footer{
+        padding-left: 16vw;
+    }
+    .footerContact{
+        margin-left: 7vw;
+    }
+    .footerNav{
+        margin-left: 6vw;
+    }
+    .footerTit{
+        padding-right: 6vw;
+    }
 }
