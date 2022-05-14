@@ -29,6 +29,17 @@
     color: #212529;
 }
 
+.aboutTop-txt a{
+    font-family: 'Poppins';
+    font-size: 1rem;
+    color: #212529;
+    font-weight: 500;
+}
+
+.aboutTop-txt a:hover{
+    color: #839192;
+}
+
 .aboutTop-txt span{
     font-size: 1.2rem;
     font-weight: 500;

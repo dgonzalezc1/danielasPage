@@ -5,6 +5,7 @@ import { library } from '@fortawesome/fontawesome-svg-core';
 import { faJava, faJs, faHtml5, faCss3Alt, faReact, faNode, faFigma, faPython, faSwift } from '@fortawesome/free-brands-svg-icons';
 import { faDatabase } from '@fortawesome/free-solid-svg-icons';
 import ReactTooltip from 'react-tooltip';
+import pdf from "../Assets/CVDownload.pdf";
 
 library.add(faJava, faJs, faHtml5, faCss3Alt, faReact, faNode, faFigma, faPython, faDatabase, faSwift);
 
@@ -16,11 +17,8 @@ function About() {
                     <h3>About</h3>
                 </div>
                 <div className="aboutTop-txt">
-                    <p>I'm a multi-cultural and multi-lingual newly graduated engineer from Universidad de los Andes, Colombia, seeking to design efficient, 
-                        innovative and sustainable solutions. I am very passionate about working with multi-disciplinary teams in projects 
-                        involving engineering and many other sectors like economics, environment and social development. I have led successful teams 
-                        with participants from different backgrounds and carreer paths.</p>
-                    <p><span>SKILLS</span></p>
+                    <p>I'm a versatile and curious newly graduated engineer from Universidad de los Andes, Colombia, seeking to design efficient, innovative and sustainable solutions. I am very passionate about working with multi-disciplinary teams in projects involving engineering, design and many other sectors like economics, environment and social development. I love constantly learning new things and challenging myself to explore areas outside of my comfort zone.</p>
+                    {/*<p><span>SKILLS</span></p>
                     <ul className="bullet">
                         <li>Versatile and curious</li>
                         <li>Highly organized</li>
@@ -30,7 +28,7 @@ function About() {
                         <li>Result driven</li>
                         <li>Agile methodologies</li>
                         <li>Fluent in Spanish, English and French</li>
-                    </ul>
+                    </ul>*/}
                     <p><span>ACHIEVEMENTS</span></p>
                     <ul className="bullet">
                         <li>Winner of a scholarship to be part of the START Fellowship program in St Gallen, Switzerland, for entrepreneurial students from Latin America. 2022</li>
@@ -38,6 +36,7 @@ function About() {
                         <li>Prize awarded as winning project in the Innovation Week of the Universidad de los Andes. 2021</li>
                         <li>Excellence Award for the best average of the year in the scientific class. 2015</li>
                     </ul>
+                    <a href={pdf} download="DanielaGonzalezCV" target='_blank' rel="noreferrer">Download CV</a>
                 </div>
             </div>
             <div className="aboutBotom">
