@@ -16,19 +16,27 @@ function About() {
                     <h3>About</h3>
                 </div>
                 <div className="aboutTop-txt">
-                    <p>I'm a multi-cultural and multi-lingual senior student at Universidad de los Andes, Colombia, seeking to design efficient, 
+                    <p>I'm a multi-cultural and multi-lingual newly graduated engineer from Universidad de los Andes, Colombia, seeking to design efficient, 
                         innovative and sustainable solutions. I am very passionate about working with multi-disciplinary teams in projects 
                         involving engineering and many other sectors like economics, environment and social development. I have led successful teams 
                         with participants from different backgrounds and carreer paths.</p>
                     <p><span>SKILLS</span></p>
                     <ul className="bullet">
-                        <li>Fast learning of new technologies and frameworks</li>
-                        <li>Team working and communication</li>
+                        <li>Versatile and curious</li>
+                        <li>Highly organized</li>
+                        <li>Critical and strategical thinker</li>
+                        <li>Team player</li>
+                        <li>Creative</li>
+                        <li>Result driven</li>
                         <li>Agile methodologies</li>
-                        <li>Critical and strategical thinking</li>
-                        <li>Creativity</li>
-                        <li>Result and detail driven</li>
-                        <li>Spanish, English and French</li>
+                        <li>Fluent in Spanish, English and French</li>
+                    </ul>
+                    <p><span>ACHIEVEMENTS</span></p>
+                    <ul className="bullet">
+                        <li>Winner of a scholarship to be part of the START Fellowship program in St Gallen, Switzerland, for entrepreneurial students from Latin America. 2022</li>
+                        <li>Top 6 in InnoTIC100M, a challenge from Univerisdad de los Andes looking for the best ICT-based innovation solutions that seek to promote the industry and infrastructure of Latin America towards a resilient and sustainable future. 2021</li>
+                        <li>Prize awarded as winning project in the Innovation Week of the Universidad de los Andes. 2021</li>
+                        <li>Excellence Award for the best average of the year in the scientific class. 2015</li>
                     </ul>
                 </div>
             </div>

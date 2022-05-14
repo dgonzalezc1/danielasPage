@@ -12,12 +12,12 @@ function Education() {
                     <div className="educationRow-bloc">
                         <p className="educationRow-bloc-tit">B.Sc. Mechanical Engineering</p>
                         <p>Universidad de los Andes</p>
-                        <p>2016-2021</p>
+                        <p>2016-2022</p>
                     </div>
                     <div className="educationRow-bloc">
                         <p className="educationRow-bloc-tit">B.Sc. Computer Science</p>
                         <p>Universidad de los Andes</p>
-                        <p>2016-2021</p>
+                        <p>2016-2022</p>
                     </div>
                 </div>
             </div>
