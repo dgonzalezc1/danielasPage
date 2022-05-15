@@ -17,7 +17,7 @@ function About() {
                     <h3>About</h3>
                 </div>
                 <div className="aboutTop-txt">
-                    <p>I'm a versatile and curious newly graduated engineer from Universidad de los Andes, Colombia, seeking to design efficient, innovative and sustainable solutions. I am very passionate about working with multi-disciplinary teams in projects involving engineering, design and many other sectors like economics, environment and social development. I love constantly learning new things and challenging myself to explore areas outside of my comfort zone.</p>
+                    <p>I'm a versatile and curious newly graduated engineer from Universidad de los Andes, Colombia, seeking to design efficient, innovative and sustainable solutions. I am very passionate about working with multi-disciplinary teams in projects involving engineering, design and many other sectors like economics, environment and social development. I love learning new things and challenging myself to explore areas outside of my comfort zone.</p>
                     {/*<p><span>SKILLS</span></p>
                     <ul className="bullet">
                         <li>Versatile and curious</li>
